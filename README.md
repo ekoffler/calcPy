@@ -6,13 +6,13 @@ This calculator has Add, Subtract, Divide and Multiply functions, and is called 
 Example JSON POST:
 
 {
-    "operation": "add",
+    "operation": "plus",
     "n1": "1",
     "n2": "5"
 }
 
 Endpoint:
-http://localhost:4000/calculator
+http://localhost:8000/calculator
 
 Operation codes:
-"add", "subtract", "divide", "multiply"
+"plus", "minus", "div", "mul"
